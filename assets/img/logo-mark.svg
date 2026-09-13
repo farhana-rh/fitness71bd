@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140" role="img" aria-label="The Fitness 71 crest">
+  <title>The Fitness 71</title>
+  <defs>
+    <linearGradient id="f71-flame" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#9E1015"/>
+      <stop offset=".38" stop-color="#E8232B"/>
+      <stop offset=".74" stop-color="#F26B1D"/>
+      <stop offset="1" stop-color="#FFC21A"/>
+    </linearGradient>
+    <linearGradient id="f71-steel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset=".62" stop-color="#E6EAF3"/>
+      <stop offset="1" stop-color="#AEB9CC"/>
+    </linearGradient>
+    <linearGradient id="f71-plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#18233C"/>
+      <stop offset="1" stop-color="#070A12"/>
+    </linearGradient>
+  </defs>
+
+  <!-- crest plate -->
+  <path d="M6 22 L22 6 H98 L114 22 V72 C114 100 92 122 60 134 C28 122 6 100 6 72 Z"
+        fill="url(#f71-plate)"/>
+  <path d="M6 22 L22 6 H98 L114 22 V72 C114 100 92 122 60 134 C28 122 6 100 6 72 Z"
+        fill="none" stroke="url(#f71-flame)" stroke-width="4.5"/>
+  <path d="M13.5 25.5 L25.5 13.5 H94.5 L106.5 25.5 V71.5 C106.5 95.5 87 114.5 60 125.5 C33 114.5 13.5 95.5 13.5 71.5 Z"
+        fill="none" stroke="#FFFFFF" stroke-opacity=".18" stroke-width="1.25"/>
+
+  <g transform="translate(18 38.64) scale(0.42)">
+    <!-- horsehair crest -->
+    <path d="M70 36 C72 -8 84 -36 100 -42 C116 -36 128 -8 130 36 C118 20 82 20 70 36 Z"
+          fill="url(#f71-flame)"/>
+    <!-- corinthian helm -->
+    <path fill-rule="evenodd" fill="url(#f71-steel)" d="
+      M100 16 L152 32 L168 66 L168 110 L156 144 L144 178 L124 172 L128 140 L128 128
+      L112 128 L112 176 L88 176 L88 128 L72 128 L72 140 L76 172 L56 178 L44 144
+      L32 110 L32 66 L48 32 Z
+      M44 74 L82 58 L82 90 L44 102 Z
+      M156 74 L118 58 L118 90 L156 102 Z"/>
+  </g>
+</svg>

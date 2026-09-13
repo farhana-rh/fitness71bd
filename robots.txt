@@ -1,0 +1,6 @@
+# The Fitness 71 — https://www.thefitness71.com
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+Sitemap: https://www.thefitness71.com/sitemap.xml
